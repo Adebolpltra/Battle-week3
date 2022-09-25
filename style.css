@@ -20,7 +20,7 @@ header{
     /* border: 2px solid red; */
     background: white;
     width:750px;
-    height: 42vh;
+    /* height: 42vh; */
     justify-content: space-between;
     display: flex;
     cursor: default;
@@ -29,6 +29,7 @@ header{
 nav{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    height: 42vh;
 }
 .div1{
     /* border: 1px solid black; */
