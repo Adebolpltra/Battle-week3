@@ -1,0 +1,125 @@
+/* RESET/FORMAT */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 350px;
+    padding: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #e4dede;
+    
+    /* text-align: center; */
+}
+header{
+    border: 2px solid red;
+    background: white;
+    width:750px;
+    height: 42vh;
+    justify-content: space-between;
+    display: flex;
+    cursor: default;
+    box-shadow: 5px 5px #888888;
+}
+nav{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+    /* border: 1px solid black; */
+    margin-right: 60px;
+    padding-right: 80px;
+    background-color: rgb(0, 102, 255);
+    text-align: center;
+}
+img{
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+h3{
+    margin: 10px 0 10px 50px;
+    font-size: 20px;
+    color: white;
+}
+.para-1{
+    margin-left: 50px;
+    font-size: 15px;
+    color: rgb(247, 241, 241);
+    
+}
+
+
+/* FORM */
+form{
+    /* border: 1px solid; */
+    padding-right: 210px; 
+       
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center; 
+    padding: 30px 0 25px 0; 
+    font-size: 20px;
+    font-weight: 700; 
+}
+input{
+    width: 300px;
+    height: 30px;
+    display: block;
+    margin: 5px auto;
+    outline: none;
+    padding: 20px;
+}
+
+.link1{
+        text-decoration: none;
+        color: rgb(0, 119, 255); 
+        font-size: 13px;        
+}
+.link-1{
+    text-decoration: none;
+    color: rgb(0, 119, 255);        
+}
+button{
+        background-color: rgb(0, 102, 255);
+        color: white;
+        font-size: 15px; 
+        padding: 10px 130px;
+        margin-top: 15px;
+        margin-bottom: 3px;
+        border: none;
+        cursor: pointer;
+}
+.div2{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    font-size: 13px;
+}
+.or{
+    padding: 20px;
+    text-align: center;
+}
+.div3{
+    display: flex;
+    justify-content: space-between;   
+}
+.link2{
+    /* border: 1px solid; */
+    padding: 10px 33px;
+    background-color: rgb(7, 61, 128);
+    color: white;
+}
+.link3{
+    /* border: 1px solid; */
+    padding: 10px 40px;
+    background-color: rgb(173, 10, 10);
+    color: white;
+}
